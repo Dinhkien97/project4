@@ -1,6 +1,17 @@
 package vn.aptech.project4.entity;
 
+<<<<<<< HEAD
 import javax.persistence.*;
+=======
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+>>>>>>> 16d4bdea241078063dbcad7d7a9cd70987da0e93
 
 @Entity
 @Table(name="customer")
@@ -101,4 +112,7 @@ public class Customer {
 		this.authority = authority;
 	}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d4bdea241078063dbcad7d7a9cd70987da0e93
